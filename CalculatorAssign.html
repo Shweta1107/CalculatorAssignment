@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+  
+    <style>
+        .container
+        {  
+            text-align: center;
+            background-color: rgb(162, 167, 175);
+            width:70%;
+            height:35rem;
+            margin: auto;
+            padding:50px 0;
+ 
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <p>Enter values to calculate</p>
+
+        <input type="number" id="value1">
+        <select name="" id="operation">
+            <option value="">Operation</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="%">%</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" id="value2">
+        <button onclick="calculate()">Calculate</button>
+        <input type="number" id="result">
+    </div>
+
+   
+     <script src="CalculatotAssign.js"></script>
+</body>
+</html>
